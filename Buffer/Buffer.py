@@ -1,5 +1,3 @@
-
-#from .WriteState import WriteState
 import sys
 import os
 from pynput.keyboard import Key, Listener
