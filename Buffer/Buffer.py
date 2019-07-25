@@ -2,9 +2,8 @@
 #from .WriteState import WriteState
 import sys
 import os
-import readline
-from pynput.keyboard import Key, Controller, Listener
-import time
+from pynput.keyboard import Key, Listener
+
 clear = lambda: os.system('clear')
 
 class Buffer():
